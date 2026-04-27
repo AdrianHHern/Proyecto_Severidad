@@ -1,15 +1,41 @@
 # Proyecto_Severidad
 Ajustar modelos de seguridad por tipo de evento para determinar la pérdida esperada en caso de un evento futuro
-Para efectos del trabajo, únicamente se utilizarán los eventos Hidrometeorológicos.
-Hacer un primer análisis de los datos y realizar la limpieza, ajustes o modificaciones de
-estos según se requiera.
-Realizar un análisis descriptivo de la base de datos.
-Ajustar los montos de pérdida considerando la inflación de cada año para que todos los
-montos estén valuados en 2024.
-Agrupar los datos y suavizarlos en caso de ser necesario. Se recomienda aplicar logaritmo
-a las pérdidas actualizadas.
-Realizar la estimación de parámetros de las distribuciones de probabilidad para la
-severidad. Pueden realizar uno o varios modelos según consideren y si identifican posibles
-segmentaciones que puedan realizar de los datos para tener grupos homogéneos.
-Realizar las pruebas de bondad de ajuste para validar los modelos.
-Determinar el costo promedio por evento para un nuevo siniestro para el 2025.
+## Objetivo
+Ajustar modelos de severidad por tipo de evento para estimar la pérdida esperada ante la ocurrencia de un evento futuro.
+--
+#Para efectos de este proyecto, se considerarán únicamente eventos **hidrometeorológicos**.
+
+## 🧪 Metodología
+
+### 1. Exploración y limpieza de datos
+- Realizar un análisis preliminar de la base de datos.
+- Aplicar procesos de limpieza, ajustes y modificaciones según sea necesario.
+
+### 2. Análisis descriptivo
+- Generar estadísticas descriptivas para comprender el comportamiento de los datos.
+
+### 3. Ajuste por inflación
+- Actualizar los montos de pérdida considerando la inflación anual.
+- Expresar todos los valores en términos del año **2024**.
+
+### 4. Transformación y preparación de datos
+- Agrupar los datos según criterios relevantes.
+- Aplicar técnicas de suavizamiento en caso necesario.
+- Se recomienda aplicar una **transformación logarítmica** a las pérdidas actualizadas.
+
+### 5. Modelado de severidad
+- Estimar los parámetros de distintas distribuciones de probabilidad.
+- Evaluar la posibilidad de segmentar los datos para generar grupos homogéneos.
+- Ajustar uno o varios modelos según los hallazgos.
+
+### 6. Validación de modelos
+- Aplicar pruebas de bondad de ajuste para validar la adecuación de los modelos.
+
+### 7. Estimación final
+- Determinar el **costo promedio por evento** para un nuevo siniestro proyectado al año **2025**.
+
+---
+
+##  Notas
+- La selección del modelo dependerá del comportamiento observado en los datos.
+- La segmentación puede mejorar la precisión de las estimaciones.
