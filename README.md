@@ -3,9 +3,9 @@ Ajustar modelos de seguridad por tipo de evento para determinar la pérdida espe
 ## Objetivo
 Ajustar modelos de severidad por tipo de evento para estimar la pérdida esperada ante la ocurrencia de un evento futuro.
 --
-#Para efectos de este proyecto, se considerarán únicamente eventos **hidrometeorológicos**.
+# Para efectos de este proyecto, se considerarán únicamente eventos **hidrometeorológicos**.
 
-## 🧪 Metodología
+## Metodología
 
 ### 1. Exploración y limpieza de datos
 - Realizar un análisis preliminar de la base de datos.
